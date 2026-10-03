@@ -1,0 +1,19 @@
+package string.java.preactice;
+
+public class Reverse_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  
+		
+		String str = "Hello world";
+		String reverse = "";
+		
+		// revers String 
+		for(int i = str.length() -1; i <= 0; i--) {
+			reverse  =  reverse + str.charAt(i);
+		}
+			System.out.println("Original String" + str );
+			System.out.println("Reversed String" + reverse); 
+		}
+	}
