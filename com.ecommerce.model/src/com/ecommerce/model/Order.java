@@ -58,7 +58,7 @@ public class Order {
 	 return "Order{" +
              "orderId=" + Orderid +
              ", customer=" + Customer.getname() +
-             ", product=" + Product.getname() +
+             ", product=" + Product.getName() +
              ", quantity=" + quantity +
              ", totalAmount=" + getTotalAmount() +
              ", orderDate=" + OrderDate +
