@@ -5,6 +5,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="com/loops/foreach/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/com/loops/foreach"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
